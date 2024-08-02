@@ -9,6 +9,8 @@ lerna-debug.log*
 
 .history
 
+Build
+
 node_modules
 .DS_Store
 dist

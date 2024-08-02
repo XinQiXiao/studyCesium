@@ -2,6 +2,9 @@
 
 ## 项目说明
 
+学习地址
+[cesium中文网](http://cesium.xin/wordpress/)
+
 ## 项目环境 
 node 18.18.2
 cesium 1.40
