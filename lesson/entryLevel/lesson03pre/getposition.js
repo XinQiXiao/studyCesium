@@ -7,7 +7,7 @@ var terrainModels = Cesium.createDefaultTerrainProviderViewModels();
 // Construct the viewer with just what we need for this base application
 var viewer = new Cesium.Viewer('cesiumContainer', {
     imageryProvider: new Cesium.SingleTileImageryProvider({
-        url: '../img/worldimage.jpg'
+        url: '../../../img/worldimage.jpg'
     }),
     timeline: false,
     animation: false,
