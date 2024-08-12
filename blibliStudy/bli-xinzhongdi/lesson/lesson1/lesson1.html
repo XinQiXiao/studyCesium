@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>B站中心地 cesium 课程1</title>
+  <script src="../../cesium-1.99/Build/CesiumUnminified/Cesium.js"></script>
+  <link rel="stylesheet" href="../../cesium-1.99/Build/CesiumUnminified/Widgets/widgets.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    #cesiumContainer {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  
+  <div id="cesiumContainer"></div>
+  <script>
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4NTYzNjEwZC1kODRkLTQ3YWMtOWM0Ny1mYTAxYTQ0NDI1MTIiLCJpZCI6MjM0Mjc0LCJpYXQiOjE3MjM0NzIzNTB9.erRR0UJ-3jMrzQSa6udAIyxjLb142DdsN42fihQYAu4';
+    new Cesium.Viewer('cesiumContainer')
+  </script>
 </body>
 </html>
