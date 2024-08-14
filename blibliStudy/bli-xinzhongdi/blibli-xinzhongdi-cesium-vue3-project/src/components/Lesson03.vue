@@ -23,7 +23,9 @@ onMounted(()=>{
 </script>
 
 <template>
-  <div>lesson 2 ~ 4</div>
+  <div>2 第一个Cesium页面</div>
+  <div>3 Vue+vite+cesium</div>
+  <div>4 hello cesium</div>
   <div id="cesiumContainer">
     
   </div>

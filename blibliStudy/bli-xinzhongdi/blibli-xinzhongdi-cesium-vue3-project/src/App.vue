@@ -1,12 +1,14 @@
 <script setup>
 
-import Lesson3 from './components/Lesson3.vue';
+import Lesson3 from './components/Lesson03.vue';
+import Lesson5 from './components/Lesson05.vue';
+import Lesson6 from './components/Lesson06.vue';
 
 </script>
 
 <template>
   <div>
-    <Lesson3 ></Lesson3>
+    <Lesson6 ></Lesson6>
   </div>
   
 </template>
