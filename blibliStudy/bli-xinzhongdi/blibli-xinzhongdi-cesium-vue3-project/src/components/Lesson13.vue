@@ -24,7 +24,7 @@
   </script>
   
   <template>
-    <div>13 entity实体（盒子、椭圆、立体）</div>
+    <div>13 entity实体（盒子）</div>
     <div id="cesiumContainer">
       
     </div>
