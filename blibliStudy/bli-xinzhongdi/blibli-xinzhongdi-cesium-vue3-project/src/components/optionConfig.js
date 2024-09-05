@@ -1,0 +1,6 @@
+const userToken = 
+`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhMDA1MDc0Ni1kYzk3LTQ1MGMtYWFlNy0zYjlkYjJhODgwNmIiLCJpZCI6MjM0Mjc0LCJpYXQiOjE3MjM0NzIwNDZ9.v6FlEGFeKOk4cLwLM3NqbPTl2gN_Hj3elyaDa89brXY`;
+
+export {
+  userToken
+}

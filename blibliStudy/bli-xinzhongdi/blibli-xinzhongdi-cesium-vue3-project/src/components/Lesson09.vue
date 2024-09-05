@@ -1,9 +1,10 @@
 <script setup>
   import * as Cesium from 'cesium'
   import { onMounted } from 'vue'
+  import { userToken } from './optionConfig.js'
   
   onMounted(()=>{
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4NTYzNjEwZC1kODRkLTQ3YWMtOWM0Ny1mYTAxYTQ0NDI1MTIiLCJpZCI6MjM0Mjc0LCJpYXQiOjE3MjM0NzIzNTB9.erRR0UJ-3jMrzQSa6udAIyxjLb142DdsN42fihQYAu4';
+    Cesium.Ion.defaultAccessToken = userToken;
     // 所有api的开始
     
     const viewer = new Cesium.Viewer('cesiumContainer', {})
