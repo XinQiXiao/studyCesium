@@ -12,12 +12,13 @@ import Lesson13 from './components/Lesson13.vue';
 import Lesson14 from './components/Lesson14.vue';
 import Lesson16 from './components/Lesson16.vue';
 import Lesson17 from './components/Lesson17.vue';
+import Lesson18 from './components/Lesson18.vue';
 
 </script>
 
 <template>
   <div>
-    <Lesson17 ></Lesson17>
+    <Lesson18 ></Lesson18>
   </div>
   
 </template>
