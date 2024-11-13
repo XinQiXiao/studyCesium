@@ -12,6 +12,7 @@ lerna-debug.log*
 Build
 
 node_modules
+cesiumSource
 .DS_Store
 dist
 dist-ssr
